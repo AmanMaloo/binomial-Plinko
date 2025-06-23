@@ -14,7 +14,7 @@ plinko-game/
 ├── ball.js              # Ball class with physics and drawing logic
 ├── game.js              # Main game setup, rendering, and game loop
 ├── simulation.js        # Logic for simulating ball drops and saving outcomes
-├── sink_generator.js     # Logic to choose which sink to target (uses binomial distribution)
+├── sink_generator.js    # Logic to choose which sink to target (uses binomial distribution)
 ├── outcomes.js          # Auto-generated file with pre-simulated x-positions
 ```
 
