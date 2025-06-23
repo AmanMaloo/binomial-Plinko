@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    background-color: #0d0959;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  canvas {
+    background-color: #0d0959;
+    margin-top: 120px;
+    display: block;
+  }
+  
+  #add-ball {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #0f0;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+  }
+  
