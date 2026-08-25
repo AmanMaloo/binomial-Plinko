@@ -3,7 +3,7 @@
 // This script runs simulations of dropping balls from random x positions
 // and logs which x-values lead to which sinks. It stores results into `outcomes.js`
 
-const NUM_SIMULATED_DROPS = 1000;
+const NUM_SIMULATED_DROPS = 5000;
 const xHitsPerSink = Array(NUM_SINKS).fill(null).map(() => []);
 
 function dropRandomBallAndTrack() {
